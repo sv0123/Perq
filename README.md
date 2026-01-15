@@ -1,85 +1,136 @@
-# Perq - Unified Credit Card Rewards Management Platform
+# 💳 Perq Platform
+### Unified Credit Card Rewards Management
 
-![Perq Platform](https://img.shields.io/badge/Version-0.1.0-blue) ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-3178C6?logo=typescript) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-38B2AC?logo=tailwind-css)
+<div align="center">
 
-## iOS-Style Black & White Design
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)
+![React](https://img.shields.io/badge/React-18-61DAFB.svg?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9-3178C6.svg?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
+![Build Status](https://img.shields.io/badge/build-passing-success.svg?style=flat-square)
 
-A modern, minimalist credit card rewards management platform with authentic iOS-style interface featuring smooth animations, tap feedback, and a clean black and white aesthetic.
+</div>
 
-## 🚀 Quick Start
+<p align="center">
+  <strong>Perq</strong> is a modern, iOS-style web application designed to revolutionize how you manage credit card rewards. 
+  Experience a premium, minimalist interface that puts your points, benefits, and financial growth front and center.
+</p>
+
+<p align="center">
+  <a href="#-key-features">Key Features</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
+
+---
+
+## 📸 Visual Experience
+
+> *Imagine screenshots here showcasing the Dashboard, Card Details, and Dark Mode.*
+> *(Add your screenshots to a `screenshots/` folder and link them here!)*
+
+## ✨ Key Features
+
+| Feature | Description |
+| ------- | ----------- |
+| **📊 Smart Dashboard** | Real-time overview of total points, net value, and expiring rewards with iOS-style stats cards. |
+| **💳 Card Wallet** | Digital twin of your physical wallet. Realistic card renders with flip interactions and detail views. |
+| **🛒 P2P Marketplace** | Trade unused points securely. Verify users with a trust badge system. |
+| **⚡ Crypto Gateway** | Convert loyalty points into top cryptocurrencies (BTC, ETH) with live market rates. |
+| **📈 Pro Analytics** | Visual insights into spending habits and point accumulation trends using interactive charts. |
+| **💎 Perq Plus** | Premium membership tier unlocking AI optimization, family pooling, and points insurance. |
+
+<details>
+<summary><strong>View Detailed Feature Breakdown</strong></summary>
+
+### 🛡️ Points Insurance (New!)
+Protect your hard-earned points from expiry or devaluation with our innovative insurance plans.
+- **Coverage**: Up to 100,000 points/year.
+- **Cost**: Low monthly premium in points.
+
+### 💰 Points Staking
+Don't let points sit idle. Stake them to earn up to **20% APY** in bonus rewards.
+- **Flexible Terms**: 30, 60, or 90 days.
+- **Compound Interest**: Earnings are added to your capital automatically.
+
+### 🎨 Design System
+- **iOS 17 Aesthetic**: Blur effects, large titles, and clean typography.
+- **Micro-interactions**: Satisfying tap feedback and smooth page transitions (60fps).
+- **Dark/Light Mode**: Fully responsive theme switching (coming soon).
+
+</details>
+
+## 🛠 Tech Stack
+
+Designed with performance and scalability in mind.
+
+- **Frontend**: [React 18](https://reactjs.org/) (Hooks, Context API)
+- **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict Mode)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (Custom Config)
+- **Charts**: [Recharts](https://recharts.org/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **State Management**: LocalStorage + React State (Demo Mode)
+
+## 🚀 Getting Started
+
+Getting Perq running locally is a breeze.
+
+### Prerequisites
+- Node.js (v16+)
+- npm or yarn
+
+### Installation
 
 ```bash
-# Install dependencies
+# 1. Clone the repository
+git clone https://github.com/sv0123/Perq.git
+
+# 2. Go to the project directory
+cd Perq
+
+# 3. Install dependencies
 npm install
 
-# Start development server
+# 4. Start the development server
 npm start
-# Runs the app in development mode at http://localhost:3000
-
-# Build for production
-npm run build
-# Bundles the app into static files for production
-
-# Run tests
-npm test
-# Launches the test runner in interactive watch mode
-
-# Eject (Advanced)
-npm run eject
-# Note: This is a one-way operation. Use only if you need full control over configuration.
 ```
 
-## ✨ Features
+Runs the app in development mode at `http://localhost:3000`.
 
-- **Dashboard**: Real-time statistics, points trend charts, and expiry alerts
-- **Card Management**: Full CRUD operations with beautiful card displays
-- **P2P Marketplace**: Trade reward points with verified users
-- **Crypto Gateway**: Convert points to cryptocurrency
-- **Analytics**: Detailed insights with interactive charts
+### Building for Production
 
-## 🎨 Design System
+```bash
+npm run build
+```
+Creates a robust, minified build in the `build` folder, ready for deployment.
 
-- **Colors**: Pure black and white with subtle grays
-- **Typography**: SF Pro-inspired system fonts
-- **Animations**: iOS-standard 150-300ms timing
-- **Interactions**: Tap feedback on all interactive elements
+## 🗺 Roadmap
 
-## 📱 iOS Design Principles
+- [x] **Phase 1**: Core UI & Card Management
+- [x] **Phase 2**: Marketplace & Crypto Integrations
+- [x] **Phase 3**: Analytics Dashboard
+- [x] **Phase 4**: Perq Plus Membership System
+- [ ] **Phase 5**: Backend API Integration (Node/Express)
+- [ ] **Phase 6**: Mobile App (React Native)
 
-- ✅ Clean, minimalist interface
-- ✅ Smooth 60fps animations
-- ✅ Tap feedback (scale to 0.95)
-- ✅ Natural shadows and borders
-- ✅ Content-first approach
+## 🤝 Contributing
 
-## 🛠️ Tech Stack
+We love contributions! Please read our [Contributing Guide](CONTRIBUTING.md) (coming soon) to get started.
 
-- React 18.2.0
-- TypeScript 4.9.5
-- Tailwind CSS 3.4.1
-- React Router 6.20.0
-- Recharts 2.10.3
-- Lucide React Icons
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📄 License
-MIT License
 
-Copyright (c) 2026 Perq Platform
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+<div align="center">
+  <sub>Built with ❤️ by the Perq Team.</sub>
+</div>
