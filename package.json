@@ -1,7 +1,8 @@
 {
   "name": "perq-platform",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
   "description": "Unified Credit Card Rewards Management Platform",
   "dependencies": {
     "clsx": "^2.0.0",
